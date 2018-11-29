@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'test'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'http://download.java.net/maven/2/'
+    }
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '6.9.10'
+    testCompile 'com.codeborne:selenide:5.0.1'
+    testCompile 'org.uncommons:reportng:1.1.4'
+    compile group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
+}
+
+test {
+    useTestNG()
+    options {
+        listeners << 'org.uncommons.reportng.HTMLReporter'
+        listeners << 'org.uncommons.reportng.JUnitXMLReporter'
+    }
+}
