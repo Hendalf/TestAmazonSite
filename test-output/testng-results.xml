@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="47329" started-at="2018-11-29T00:38:49Z" finished-at="2018-11-29T00:39:37Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="47329" started-at="2018-11-29T00:38:49Z" finished-at="2018-11-29T00:39:37Z">
+      <class name="amazon.site.tests.AmazonSiteTest">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="loginTest" duration-ms="15150" started-at="2018-11-29T03:38:49Z" finished-at="2018-11-29T03:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="searchItemTest()[pri:2, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="searchItemTest" duration-ms="24549" started-at="2018-11-29T03:39:05Z" finished-at="2018-11-29T03:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemTest -->
+        <test-method status="PASS" signature="addToCartTest()[pri:3, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="addToCartTest" duration-ms="5177" started-at="2018-11-29T03:39:29Z" finished-at="2018-11-29T03:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="deleteFromBasketAndSignOut()[pri:4, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="deleteFromBasketAndSignOut" duration-ms="2434" started-at="2018-11-29T03:39:34Z" finished-at="2018-11-29T03:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFromBasketAndSignOut -->
+      </class> <!-- amazon.site.tests.AmazonSiteTest -->
+    </test> <!-- test -->
+  </suite> <!-- Default Suite -->
+</testng-results>
