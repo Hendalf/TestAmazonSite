@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="47329" started-at="2018-11-29T00:38:49Z" finished-at="2018-11-29T00:39:37Z">
+  <suite name="Default Suite" duration-ms="44396" started-at="2018-12-08T23:53:12Z" finished-at="2018-12-08T23:53:56Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="47329" started-at="2018-11-29T00:38:49Z" finished-at="2018-11-29T00:39:37Z">
+    <test name="test" duration-ms="44396" started-at="2018-12-08T23:53:12Z" finished-at="2018-12-08T23:53:56Z">
       <class name="amazon.site.tests.AmazonSiteTest">
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="loginTest" duration-ms="15150" started-at="2018-11-29T03:38:49Z" finished-at="2018-11-29T03:39:05Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="loginTest" duration-ms="18648" started-at="2018-12-09T02:53:12Z" finished-at="2018-12-09T02:53:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="searchItemTest()[pri:2, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="searchItemTest" duration-ms="24549" started-at="2018-11-29T03:39:05Z" finished-at="2018-11-29T03:39:29Z">
+        <test-method status="PASS" signature="searchItemTest()[pri:2, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="searchItemTest" duration-ms="14704" started-at="2018-12-09T02:53:31Z" finished-at="2018-12-09T02:53:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItemTest -->
-        <test-method status="PASS" signature="addToCartTest()[pri:3, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="addToCartTest" duration-ms="5177" started-at="2018-11-29T03:39:29Z" finished-at="2018-11-29T03:39:34Z">
+        <test-method status="PASS" signature="addToCartTest()[pri:3, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="addToCartTest" duration-ms="8129" started-at="2018-12-09T02:53:45Z" finished-at="2018-12-09T02:53:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method status="PASS" signature="deleteFromBasketAndSignOut()[pri:4, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="deleteFromBasketAndSignOut" duration-ms="2434" started-at="2018-11-29T03:39:34Z" finished-at="2018-11-29T03:39:37Z">
+        <test-method status="PASS" signature="deleteFromBasketAndSignOut()[pri:4, instance:amazon.site.tests.AmazonSiteTest@16e852b]" name="deleteFromBasketAndSignOut" duration-ms="2895" started-at="2018-12-09T02:53:54Z" finished-at="2018-12-09T02:53:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteFromBasketAndSignOut -->

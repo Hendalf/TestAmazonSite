@@ -1,6 +1,7 @@
 package amazon.site.tests;
 
 import amazon.site.uaxiliary.EncryptDecryptStringWithDES;
+import com.codeborne.selenide.Configuration;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,6 +10,7 @@ import java.util.Properties;
 public class TestBase {
     private Properties property;
     private String baseUrl;
+    private String userEmail;
     private String userLogin;
     private String userPassword;
     private FileInputStream fis;
@@ -22,6 +24,7 @@ public class TestBase {
             property.load(fis);
             baseUrl = property.getProperty("web.baseUrl");
             edsDES = new EncryptDecryptStringWithDES(property.getProperty("secret.key"));
+            userEmail = edsDES.decrypt(property.getProperty("secret.email"));
             userLogin = edsDES.decrypt(property.getProperty("secret.login"));
             userPassword = edsDES.decrypt(property.getProperty("secret.password"));
         } catch (IOException e) {
@@ -31,6 +34,10 @@ public class TestBase {
 
     public String getBaseUrl(){
         return baseUrl;
+    }
+
+    public String getUserEmail(){
+        return userEmail;
     }
 
     public String getUserLogin(){

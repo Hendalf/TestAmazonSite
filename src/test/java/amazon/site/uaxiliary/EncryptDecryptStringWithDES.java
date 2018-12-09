@@ -48,7 +48,7 @@ public class EncryptDecryptStringWithDES {
         // create new key
         SecretKey secretKey = null;
         try {
-            secretKey = KeyGenerator.getInstance("AES").generateKey();
+            secretKey = KeyGenerator.getInstance("DES").generateKey();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
